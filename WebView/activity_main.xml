@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Review Second PART"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        />
+
+    <EditText
+        android:id="@+id/editar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write what you want"
+        android:gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change text"/>
+
+    <Button
+        android:id="@+id/toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TOAST!"/>
+
+    <Button
+        android:id="@+id/buttonChange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change to Activity nº 2!"/>
+
+    <Button
+        android:id="@+id/llamar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call here "/>
+
+    <Button
+        android:id="@+id/sendSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send a SMS here "/>
+
+    <WebView
+        android:id="@+id/website"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+</LinearLayout>
