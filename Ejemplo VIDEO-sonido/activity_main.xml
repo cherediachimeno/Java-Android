@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Ejercicio Video"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/reproduciendo"
+        android:layout_width="294dp"
+        android:layout_height="89dp"
+        android:backgroundTint="@color/green"
+        android:text="@string/reproducir" />
+
+    <Button
+        android:id="@+id/parando"
+        android:layout_width="284dp"
+        android:layout_height="98dp"
+        android:backgroundTint="@color/red"
+        android:text="@string/detener" />
+
+    <!--
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        -->
+
+
+</LinearLayout>
